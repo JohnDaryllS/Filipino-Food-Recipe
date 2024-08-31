@@ -107,7 +107,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/background.jpg'); /* Example image URL, replace as needed */
+    background-image: url('img/background.jpg'); /* Example image URL, replace as needed */
     background-size: cover;
     background-position: center;
     filter: blur(2px); /* Apply blur effect */
