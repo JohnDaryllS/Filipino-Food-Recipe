@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Food Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/STYLE/style.css">
+    <link rel="icon" href="/img/logo.png" type="image">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="home.html"><img src="/img/b003cfe9-da93-4f04-91d4-5dea76e1cc4a.png" alt="Logo" class="logo"></a>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Find a Filipino Food you like..... " onkeyup="searchCards()">
+        <i class="fa-brands fa-searchengin"></i>
+    </nav>
+
+    <div class="button-container">
+        <a href="home.html"><button class="btn">Staples and Main Dishes</button></a>
+        <a href="seafood.html"><button class="btn">Seafood</button></a>
+        <a href="SnacksandStreetFood.html"><button class="btn">Snacks and Street Food</button></a>
+        <a href="DessertsandSweets.html"><button class="btn">Desserts and Sweets</button></a>
+        <a href="SoupsandStews.html"><button class="btn">Soups and Stews</button></a>
+        <a href="RegionalSpecialties.html"><button class="btn">Regional Specialties</button></a>
+    </div>
+
+    <h1>Desserts and Sweets</h1>
+
+    <div class="card-container">
+        <div class="card" onclick="showPopupCard('Classic Ginatang Bilo-Bilo')"><img src="" alt="Adobo" class="card-image"><h3>Classic Ginatang Bilo-Bilo</h3></div>
+        <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Ube')"><img src="" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Ube</h3></div>
+        <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Langka')"><img src="" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Langka</h3></div>
+        <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Coconut Cream')"><img src="" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Coconut Cream</h3></div>
+        <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Mango')"><img src="" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Mango</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Leche Flan')"><img src="" alt="Adobo" class="card-image"><h3>Classic Leche Flan</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Coconut Milk')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Coconut Milk</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Cheese')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Cheese</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Ube')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Ube</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Fruit')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Fruit</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Matcha')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Matcha</h3></div>
+        <div class="card" onclick="showPopupCard('Leche Flan with Caramelized Bananas')"><img src="" alt="Adobo" class="card-image"><h3>Leche Flan with Caramelized Bananas</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Bibingka')"><img src="" alt="Adobo" class="card-image"><h3>Classic Bibingka</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Ube')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Ube</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Cheese and Coconut')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Cheese and Coconut</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Latik (Coconut Caramel)')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Latik (Coconut Caramel)</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Sweet Potato')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Sweet Potato</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Fruit')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Fruit</h3></div>
+        <div class="card" onclick="showPopupCard('Bibingka with Pandan')"><img src="" alt="Adobo" class="card-image"><h3>Bibingka with Pandan</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Puto')"><img src="" alt="Adobo" class="card-image"><h3>Classic Puto</h3></div>
+        <div class="card" onclick="showPopupCard('Puto with Cheese')"><img src="" alt="Adobo" class="card-image"><h3>Puto with Cheese</h3></div>
+        <div class="card" onclick="showPopupCard('Puto with Ube')"><img src="" alt="Adobo" class="card-image"><h3>Puto with Ube</h3></div>
+        <div class="card" onclick="showPopupCard('Puto with Macapuno')"><img src="" alt="Adobo" class="card-image"><h3>Puto with Macapuno</h3></div>
+        <div class="card" onclick="showPopupCard('Puto Pao (Stuffed Puto)')"><img src="" alt="Adobo" class="card-image"><h3>Puto Pao (Stuffed Puto)</h3></div>
+        <div class="card" onclick="showPopupCard('Puto with Pandan')"><img src="" alt="Adobo" class="card-image"><h3>Puto with Pandan</h3></div>
+        <div class="card" onclick="showPopupCard('Puto with Sweet Corn')"><img src="" alt="Adobo" class="card-image"><h3>Puto with Sweet Corn</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Ube Halaya')"><img src="" alt="Adobo" class="card-image"><h3>Classic Ube Halaya</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Cheese')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Cheese</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Coconut')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Coconut</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Leche Condensada (Condensed Milk)')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Leche Condensada (Condensed Milk)</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Red Beans')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Red Beans</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Nuts')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Nuts</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Avocado')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Avocado</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Mochi')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Mochi</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Almonds')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Almonds</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Purple Yam Chips')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Purple Yam Chips</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halaya with Coconut Milk')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halaya with Coconut Milk</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Classic Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Ube Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Mango Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Kubo Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Kubo Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Buko Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Buko Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Red Bean Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Red Bean Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Choco Halo-Halo')"><img src="" alt="Adobo" class="card-image"><h3>Choco Halo-Halo</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Classic Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Ube Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Mango Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Corn Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Corn Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Coconut Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Coconut Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Ube-Mango Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Ube-Mango Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Buko Sapin-Sapin')"><img src="" alt="Adobo" class="card-image"><h3>Buko Sapin-Sapin</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Mango Float')"><img src="" alt="Adobo" class="card-image"><h3>Classic Mango Float</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Custard')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Custard</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Cheese')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Cheese</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Coconut')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Coconut</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Ube')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Ube</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Graham Crust')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Graham Crust</h3></div>
+        <div class="card" onclick="showPopupCard('Mango Float with Chia Seeds')"><img src="" alt="Adobo" class="card-image"><h3>Mango Float with Chia Seeds</h3></div>
+        <div class="card" onclick="showPopupCard('Classic Cuchinta')"><img src="" alt="Adobo" class="card-image"><h3>Classic Cuchinta</h3></div>
+        <div class="card" onclick="showPopupCard('Cuchinta with Coconut')"><img src="" alt="Adobo" class="card-image"><h3>Cuchinta with Coconut</h3></div>
+        <div class="card" onclick="showPopupCard('Ube Cuchinta')"><img src="" alt="Adobo" class="card-image"><h3>Ube Cuchinta</h3></div>
+        <div class="card" onclick="showPopupCard('Cheese Cuchinta')"><img src="" alt="Adobo" class="card-image"><h3>Cheese Cuchinta</h3></div>
+        <div class="card" onclick="showPopupCard('Sweetened Cuchinta')"><img src="" alt="Adobo" class="card-image"><h3>Sweetened Cuchinta</h3></div>
+        <div class="card" onclick="showPopupCard('Pandan Cuchinta')"><img src="" alt="Adobo" class="card-image"><h3>Pandan Cuchinta</h3></div>
+        <div class="card" onclick="showPopupCard('Cuchinta with Mung Beans')"><img src="" alt="Adobo" class="card-image"><h3>Cuchinta with Mung Beans</h3></div>
+    </div>
+
+    <div id="popup-card" class="popup-card">
+        <div class="popup-content">
+            <i class="fa-brands fa-mixer close-btn" onclick="closePopupCard()"></i>
+            <p id="popup-text">Popup Card</p>
+        </div>
+    </div>
+
+    <script src="/JS/script.js"></script>
+    <script src="/JS/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Food Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/STYLE/style.css">
+    <link rel="icon" href="/img/logo.png" type="image">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="home.html"><img src="/img/b003cfe9-da93-4f04-91d4-5dea76e1cc4a.png" alt="Logo" class="logo"></a>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Find a Filipino Food you like..... " onkeyup="searchCards()">
+        <i class="fa-brands fa-searchengin"></i>
+    </nav>
+
+    <div class="button-container">
+        <a href="home.html"><button class="btn">Staples and Main Dishes</button></a>
+        <a href="seafood.html"><button class="btn">Seafood</button></a>
+        <a href="SnacksandStreetFood.html"><button class="btn">Snacks and Street Food</button></a>
+        <a href="DessertsandSweets.html"><button class="btn">Desserts and Sweets</button></a>
+        <a href="SoupsandStews.html"><button class="btn">Soups and Stews</button></a>
+        <a href="RegionalSpecialties.html"><button class="btn">Regional Specialties</button></a>
+    </div>
+
+    <h1>Seafood</h1>
+
+    <div class="card-container">
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+    </div>
+
+    <div id="popup-card" class="popup-card">
+        <div class="popup-content">
+            <i class="fa-brands fa-mixer close-btn" onclick="closePopupCard()"></i>
+            <p id="popup-text">Popup Card</p>
+        </div>
+    </div>
+
+    <script src="/JS/script.js"></script>
+    <script src="/JS/nav.js"></script>
+</body>
+</html>
