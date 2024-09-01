@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filipino Food Recipe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo.png" type="image">
@@ -105,8 +106,59 @@
         <div class="card" onclick="showPopupCard('Chop Suey with Bacon')"><img src="img/Chop Suey with Bacon.jpg" alt="Chop Suey with Bacon" class="card-image"><h3>Chop Suey with Bacon</h3></div>
     </div>
 
-    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Seafood</h2>
-    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Snacks and Street Food</h2>
+    <h2 id="seafood" class="dropdown-toggle" data-target="seafood-container">Seafood</h2>
+
+    <div id="seafood-container" class="card-container">
+        <div class="card" onclick="showPopupCard('Daing na bangus')"><img src="img/Daing na bangus.jpg" alt="Daing na bangus" class="card-image"><h3>Daing na bangus</h3></div>
+        <div class="card" onclick="showPopupCard('Camaron rebosado')"><img src="img/Camaron rebosado.jpg" alt="Camaron rebosado" class="card-image"><h3>Camaron rebosado</h3></div>
+        <div class="card" onclick="showPopupCard('Daing')"><img src="img/Daing.jpg" alt="Daing" class="card-image"><h3>Daing</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na hipon')"><img src="img/Sinigang na hipon.jpg" alt="Sinigang na hipon" class="card-image"><h3>Sinigang na hipon</h3></div>
+        <div class="card" onclick="showPopupCard('Bangsilog')"><img src="img/Bangsilog.jpg" alt="Bangsilog" class="card-image"><h3>Bangsilog</h3></div>
+        <div class="card" onclick="showPopupCard('Daingsilog')"><img src="img/Daingsilog.jpg" alt="Daingsilog" class="card-image"><h3>Daingsilog</h3></div>
+        <div class="card" onclick="showPopupCard('Kinilaw')"><img src="img/Kinilaw.jpg" alt="Kinilaw" class="card-image"><h3>Kinilaw</h3></div>
+        <div class="card" onclick="showPopupCard('Adobong pusit')"><img src="img/Adobong pusit.jpg" alt="Adobong pusit" class="card-image"><h3>Adobong pusit</h3></div>
+        <div class="card" onclick="showPopupCard('Adobong pugita')"><img src="img/Adobong pugita.jpg" alt="Adobong pugita" class="card-image"><h3>Adobong pugita</h3></div>
+        <div class="card" onclick="showPopupCard('Pinangat')"><img src="img/Pinangat.jpg" alt="Pinangat" class="card-image"><h3>Pinangat</h3></div>
+        <div class="card" onclick="showPopupCard('Kinunot')"><img src="img/Kinunot.jpg" alt="Kinunot" class="card-image"><h3>Kinunot</h3></div>
+        <div class="card" onclick="showPopupCard('Lamayo')"><img src="img/Lamayo.jpg" alt="Lamayo" class="card-image"><h3>Lamayo</h3></div>
+        <div class="card" onclick="showPopupCard('Halabos na hipon')"><img src="img/Halabos na hipon.jpg" alt="Halabos na hipon" class="card-image"><h3>Halabos na hipon</h3></div>
+        <div class="card" onclick="showPopupCard('Sinanglay')"><img src="img/Sinanglay.jpg" alt="Sinanglay" class="card-image"><h3>Sinanglay</h3></div>
+        <div class="card" onclick="showPopupCard('Adobong isda')"><img src="img/Adobong isda.jpg" alt="Adobong isda" class="card-image"><h3>Adobong isda</h3></div>
+        <div class="card" onclick="showPopupCard('Adobong hito')"><img src="img/Adobong hito.jpg" alt="Adobong hito" class="card-image"><h3>Adobong hito</h3></div>
+        <div class="card" onclick="showPopupCard('Adobong hipon')"><img src="img/Adobong hipon.jpg" alt="Adobong hipon" class="card-image"><h3>Adobong hipon</h3></div>
+    </div>
+
+    <h2 id="snacks-street" class="dropdown-toggle" data-target="snacks-container">Snacks and Street Food</h2>
+    
+    <div id="snacks-container" class="card-container">
+        <div class="card" onclick="showPopupCard('Balut')"><img src="img/Balut.webp" alt="Balut" class="card-image"><h3>Balut</h3></div>
+        <div class="card" onclick="showPopupCard('Banana Q')"><img src="img/Banana Q.webp" alt="Banana Q" class="card-image"><h3>Banana Q</h3></div>
+        <div class="card" onclick="showPopupCard('Buko')"><img src="img/Buko.jpg" alt="Buko" class="card-image"><h3>Buko</h3></div>
+        <div class="card" onclick="showPopupCard('Chicharon bulaklak')"><img src="img/Chicharon bulaklak.webp" alt="Chicharon bulaklak" class="card-image"><h3>Chicharon bulaklak</h3></div>
+        <div class="card" onclick="showPopupCard('Vigan empanada')"><img src="img/Empanada.webp" alt="Vigan empanada" class="card-image"><h3>Vigan empanada</h3></div>
+        <div class="card" onclick="showPopupCard('Fish Balls / Chicken Balls')"><img src="img/Fish Balls.webp" alt="Fish Balls / Chicken Balls" class="card-image"><h3>Fish Balls / Chicken Balls</h3></div>
+        <div class="card" onclick="showPopupCard('Isaw ')"><img src="img/isaw.jpg" alt="Isaw " class="card-image"><h3>Isaw </h3></div>
+        <div class="card" onclick="showPopupCard('Kwek Kwek')"><img src="img/Kwek-kwek.webp" alt="Kwek Kwek" class="card-image"><h3>Kwek Kwek</h3></div>
+        <div class="card" onclick="showPopupCard('Lugaw (Goto / Arroz Caldo)')"><img src="img/Lugaw.webp" alt="Lugaw (Goto / Arroz Caldo)" class="card-image"><h3>Lugaw (Goto / Arroz Caldo)</h3></div>
+        <div class="card" onclick="showPopupCard('Mais')"><img src="img/Mais.webp" alt="Mais" class="card-image"><h3>Mais</h3></div>
+        <div class="card" onclick="showPopupCard('Mami')"><img src="img/Mami.webp" alt="Mami" class="card-image"><h3>Mami</h3></div>
+        <div class="card" onclick="showPopupCard('Pork BBQ')"><img src="img/Pork BBQ.webp" alt="Pork BBQ" class="card-image"><h3>Pork BBQ</h3></div>
+        <div class="card" onclick="showPopupCard('Puwet ng Manok')"><img src="img/pwet ng manok.png" alt="Puwet ng Manok" class="card-image"><h3>Puwet ng Manok</h3></div>
+        <div class="card" onclick="showPopupCard('Tenga ng Baboy')"><img src="img/tenga ng baboy bbq.jpg" alt="Tenga ng Baboy" class="card-image"><h3>Tenga ng Baboy</h3></div>
+        <div class="card" onclick="showPopupCard('Turon')"><img src="img/Turon.webp" alt="Turon" class="card-image"><h3>Turon</h3></div>
+        <div class="card" onclick="showPopupCard('Ukoy')"><img src="img/Ukoy.webp" alt="Ukoy" class="card-image"><h3>Ukoy</h3></div>
+        <div class="card" onclick="showPopupCard('Betamax')"><img src="img/Betamax.jpg" alt="Betamax" class="card-image"><h3>Betamax</h3></div>
+        <div class="card" onclick="showPopupCard('Bopis')"><img src="img/Bopis.jpg" alt="Bopis" class="card-image"><h3>Bopis</h3></div>
+        <div class="card" onclick="showPopupCard('Taho')"><img src="img/Taho.webp" alt="Taho" class="card-image"><h3>Taho</h3></div>
+        <div class="card" onclick="showPopupCard('Banana Chips')"><img src="img/Banana Chips.webp" alt="Banana Chips" class="card-image"><h3>Banana Chips</h3></div>
+        <div class="card" onclick="showPopupCard('Chicharon')"><img src="img/Chicharon.webp" alt="Chicharon" class="card-image"><h3>Chicharon</h3></div>
+        <div class="card" onclick="showPopupCard('chicken skin')"><img src="img/chicken skin.webp" alt="chicken skin" class="card-image"><h3>chicken skin</h3></div>
+        <div class="card" onclick="showPopupCard('Biko')"><img src="img/Biko.webp" alt="Biko" class="card-image"><h3>Biko</h3></div>
+        <div class="card" onclick="showPopupCard('Ensaymada')"><img src="img/Ensaymada.webp" alt="Ensaymada" class="card-image"><h3>Ensaymada</h3></div>
+        <div class="card" onclick="showPopupCard('suman')"><img src="img/suman.jpg" alt="suman" class="card-image"><h3>suman</h3></div>
+    </div>
+
+
     <h2 id="desserts-and-sweets" class="dropdown-toggle" data-target="dessert-container">Desserts and Sweets</h2>
     
     <div id="dessert-container" class="card-container">

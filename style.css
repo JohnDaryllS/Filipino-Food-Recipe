@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
     margin: 0;
     padding-top: 60px;
     background-color: #a7af8b;
@@ -86,7 +87,10 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    width: 90%;
     margin: 100px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
 }
 
 .btn {
