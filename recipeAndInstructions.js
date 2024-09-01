@@ -768,7 +768,7 @@ function showPopupCard(recipeName) {
     const recipe = recipes[recipeName];
     if (recipe) {
         const popupText = `
-            <h2>This is ${recipeName} recipe</h2>
+            <h1>This is ${recipeName} recipe</h1>
             <h3>Ingredients</h3>
             <ul class="ingredients-list">
                 ${recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}

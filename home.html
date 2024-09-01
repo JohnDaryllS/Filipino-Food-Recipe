@@ -24,9 +24,9 @@
         <a href="RegionalSpecialties.html"><button class="btn">Regional Specialties</button></a>
     </div>
     
-    <h2>Staples and Main Dishes</h2>
+    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Staples and Main Dishes</h2>
 
-    <div class="card-container">
+    <div id="staples-container" class="card-container">
         <div class="card" onclick="showPopupCard('Adobong Manok (Chicken Adobo)')"><img src="img/Adobo-chicken.jpg" alt="Adobo" class="card-image"><h3>Adobong Manok (Chicken Adobo)</h3></div>
         <div class="card" onclick="showPopupCard('Adobong Baboy (Pork Adobo)')"><img src="img/adobong-baboy.jpg" alt="Sinigang" class="card-image"><h3> Adobong Baboy (Pork Adobo)</h3></div>
         <div class="card" onclick="showPopupCard('Adobong Pusit (Squid Adobo)')"><img src="img/adobong-pusit-recipe-01.jpg" alt="Adobong Pusit (Squid Adobo)" class="card-image"><h3>Adobong Pusit (Squid Adobo)</h3></div>
@@ -105,11 +105,11 @@
         <div class="card" onclick="showPopupCard('Chop Suey with Bacon')"><img src="img/Chop Suey with Bacon.jpg" alt="Chop Suey with Bacon" class="card-image"><h3>Chop Suey with Bacon</h3></div>
     </div>
 
-    <h2>Seafood</h2>
-    <h2>Snacks and Street Food</h2>
-    <h2>Desserts and Sweets</h2>
+    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Seafood</h2>
+    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Snacks and Street Food</h2>
+    <h2 id="desserts-and-sweets" class="dropdown-toggle" data-target="dessert-container">Desserts and Sweets</h2>
     
-    <div class="card-container">
+    <div id="dessert-container" class="card-container">
         <div class="card" onclick="showPopupCard('Classic Ginatang Bilo-Bilo')"><img src="img/Classic Ginatang Bilo-Bilo'.png" alt="Adobo" class="card-image"><h3>Classic Ginatang Bilo-Bilo</h3></div>
         <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Ube')"><img src="img/Ginatang Bilo-Bilo with Ube.jpg" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Ube</h3></div>
         <div class="card" onclick="showPopupCard('Ginatang Bilo-Bilo with Langka')"><img src="img/Ginatang Bilo-Bilo with Langka.jpg" alt="Adobo" class="card-image"><h3>Ginatang Bilo-Bilo with Langka</h3></div>
@@ -172,8 +172,8 @@
         <div class="card" onclick="showPopupCard('Pandan Cuchinta')"><img src="img/Pandan Cuchinta.jpg" alt="Adobo" class="card-image"><h3>Pandan Cuchinta</h3></div>
     </div>
 
-    <h2>Soups and Stews</h2>
-    <h2>Regional Specialties</h2>
+    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Soups and Stews</h2>
+    <h2 id="staples-dishes" class="dropdown-toggle" data-target="staples-container">Regional Specialties</h2>
 
     <div id="popup-card" class="popup-card">
         <div class="popup-content">
@@ -185,5 +185,6 @@
 
     <script src="nav.js"></script>
     <script src="recipeAndInstructions.js"></script>
+    <script src="dropdown.js"></script>
 </body>
 </html>
