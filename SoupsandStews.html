@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filipino Food Recipe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/img/logo.png" type="image">
+    <link rel="icon" href="img/logo.png" type="image">
 </head>
 <body>
     <nav class="navbar">
-        <a href="home.html"><img src="/img/b003cfe9-da93-4f04-91d4-5dea76e1cc4a.png" alt="Logo" class="logo"></a>
+        <a href="home.html"><img src="img/b003cfe9-da93-4f04-91d4-5dea76e1cc4a.png" alt="Logo" class="logo"></a>
         <input type="text" id="search-bar" class="search-bar" placeholder="Find a Filipino Food you like..... " onkeyup="searchCards()">
         <i class="fa-brands fa-searchengin"></i>
     </nav>
+
     <div class="button-container">
-        <a href="home.html"><button class="btn">Staples and Main Dishes</button></a>
+        <a href="StaplesandMainDishes.html"><button class="btn">Staples and Main Dishes</button></a>
         <a href="seafood.html"><button class="btn">Seafood</button></a>
         <a href="SnacksandStreetFood.html"><button class="btn">Snacks and Street Food</button></a>
         <a href="DessertsandSweets.html"><button class="btn">Desserts and Sweets</button></a>
@@ -26,31 +28,44 @@
     <h1>Soups and Stews</h1>
 
     <div class="card-container">
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
-        <div class="card" onclick="showPopupCard('Adobo')"><img src="" alt="Adobo" class="card-image"><h3></h3></div>
+        <div class="card" onclick="showPopupCard('Bagnet Sinigang')"><img src="img/Bagnet Sinigang.jpg" alt="Bagnet Sinigang" class="card-image"><h3>Bagnet Sinigang</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy (Pork Sinigang)')"><img src="img/Sinigang na Baboy.jpg" alt="Sinigang na Baboy (Pork Sinigang)" class="card-image"><h3>Sinigang na Baboy (Pork Sinigang)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Isda (Fish Sinigang)')"><img src="img/Sinigang na Isda.jpg" alt="Sinigang na Isda (Fish Sinigang)" class="card-image"><h3>Sinigang na Isda (Fish Sinigang)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy sa Bayabas (Pork Sinigang with Guava)')"><img src="img/Sinigang na Baboy sa Bayabas.jpg" alt="Sinigang na Baboy sa Bayabas (Pork Sinigang with Guava)" class="card-image"><h3>Sinigang na Baboy sa Bayabas (Pork Sinigang with Guava)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy sa Miso (Pork Sinigang with Miso)')"><img src="img/Sinigang na Baboy sa Miso.jpg" alt="Sinigang na Baboy sa Miso (Pork Sinigang with Miso)" class="card-image"><h3>Sinigang na Baboy sa Miso (Pork Sinigang with Miso)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy sa Bagoong (Pork Sinigang with Shrimp Paste)')"><img src="img/Sinigang na Baboy sa Bagoong.jpg" alt="Sinigang na Baboy sa Bagoong (Pork Sinigang with Shrimp Paste)" class="card-image"><h3>Sinigang na Baboy sa Bagoong (Pork Sinigang with Shrimp Paste)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy sa Sinigang Mix (Pork Sinigang with Tamarind Soup Base)')"><img src="img/Sinigang na Baboy sa Sinigang Mix.jpg" alt="Sinigang na Baboy sa Sinigang Mix (Pork Sinigang with Tamarind Soup Base)" class="card-image"><h3>Sinigang na Baboy sa Sinigang Mix (Pork Sinigang with Tamarind Soup Base)</h3></div>
+        <div class="card" onclick="showPopupCard('Sinigang na Baboy sa Bayabas at Linga (Pork Sinigang with Guava and Sesame Seeds)')"><img src="img/Sinigang na Baboy sa Bayabas at Linga.jpg" alt="Sinigang na Baboy sa Bayabas at Linga (Pork Sinigang with Guava and Sesame Seeds)" class="card-image"><h3>Sinigang na Baboy sa Bayabas at Linga (Pork Sinigang with Guava and Sesame Seeds)</h3></div>
+        <div class="card" onclick="showPopupCard('Bulalô')"><img src="img/Bulalô.jpg" alt="Bulalô" class="card-image"><h3>Bulalô</h3></div>
+        <div class="card" onclick="showPopupCard('Batchoy')"><img src="img/Batchoy.jpg" alt="Batchoy" class="card-image"><h3>Batchoy</h3></div>
+        <div class="card" onclick="showPopupCard('Tinolang manok')"><img src="img/Tinolang manok.jpg" alt="Tinolang manok" class="card-image"><h3>Tinolang manok</h3></div>
+        <div class="card" onclick="showPopupCard('Pancit lomi')"><img src="img/Pancit lomi.jpg" alt="Pancit lomi" class="card-image"><h3>Pancit lomi</h3></div>
+        <div class="card" onclick="showPopupCard('Nilagang baka')"><img src="img/Nilagang baka.jpg" alt="Nilagang baka" class="card-image"><h3>Nilagang baka</h3></div>
+        <div class="card" onclick="showPopupCard('Papaitan')"><img src="img/Papaitan.jpg" alt="Papaitan" class="card-image"><h3>Papaitan</h3></div>
+        <div class="card" onclick="showPopupCard('Pinikpikan')"><img src="img/Pinikpikan.jpg" alt="Pinikpikan" class="card-image"><h3>Pinikpikan</h3></div>
+        <div class="card" onclick="showPopupCard('Kinalas')"><img src="img/Kinalas.jpg" alt="Kinalas" class="card-image"><h3>Kinalas</h3></div>
+        <div class="card" onclick="showPopupCard('Dinengdeng')"><img src="img/Dinengdeng.jpg" alt="Dinengdeng" class="card-image"><h3>Dinengdeng</h3></div>
+        <div class="card" onclick="showPopupCard('Soup Number Five')"><img src="img/Soup Number Five.jpg" alt="Soup Number Five" class="card-image"><h3>Soup Number Five</h3></div>
+        <div class="card" onclick="showPopupCard('Utan')"><img src="img/Utan.jpg" alt="Utan" class="card-image"><h3>Utan</h3></div>
+        <div class="card" onclick="showPopupCard('Lauya')"><img src="img/Lauya.jpg" alt="Lauya" class="card-image"><h3>Lauya</h3></div>
+        <div class="card" onclick="showPopupCard('Pancit Molo')"><img src="img/Pancit Molo.jpg" alt="Pancit Molo" class="card-image"><h3>Pancit Molo</h3></div>
+        <div class="card" onclick="showPopupCard('Tinolang Isda')"><img src="img/Tinolang Isda.jpg" alt="Tinolang Isda" class="card-image"><h3>Tinolang Isda</h3></div>
+        <div class="card" onclick="showPopupCard('Sopas (Chicken Noodle Soup)')"><img src="img/Chicken noodle soup (Sopas).jpg" alt="Sopas (Chicken Noodle Soup)" class="card-image"><h3>Sopas (Chicken Noodle Soup)</h3></div>
+        <div class="card" onclick="showPopupCard('Chicken Sotanghon Soup')"><img src="img/Chicken Sotanghon Soup.jpg" alt="Chicken Sotanghon Soup" class="card-image"><h3>Chicken Sotanghon Soup</h3></div>
+        <div class="card" onclick="showPopupCard('Beef Lauya')"><img src="img/Beef Lauya.jpg" alt="Beef Lauya" class="card-image"><h3>Beef Lauya</h3></div>
+        <div class="card" onclick="showPopupCard('Ginisang Munggo')"><img src="img/Ginisang Munggo.jpg" alt="Ginisang Munggo" class="card-image"><h3>Ginisang Munggo</h3></div>
+        <div class="card" onclick="showPopupCard('Beef Nilaga Soup')"><img src="img/Beef Nilaga Soup.jpg" alt="Beef Nilaga Soup" class="card-image"><h3>Beef Nilaga Soup</h3></div>
+        <div class="card" onclick="showPopupCard('Beef Pares Mami')"><img src="img/Beef Pares Mami.jpg" alt="Beef Pares Mami" class="card-image"><h3>Beef Pares Mami</h3></div>
+        <div class="card" onclick="showPopupCard('Nilagang Baboy')"><img src="img/Nilagang Baboy.jpg" alt="Nilagang Baboy" class="card-image"><h3>Nilagang Baboy</h3></div>
+        <div class="card" onclick="showPopupCard('Filipino Pork Stew ')"><img src="img/Filipino Pork Stew.jpg" alt="Filipino Pork Stew " class="card-image"><h3>Filipino Pork Stew </h3></div>
+        <div class="card" onclick="showPopupCard('Binakol Na Manok')"><img src="img/Binakol Na Manok.jpg" alt="Binakol Na Manok" class="card-image"><h3>Binakol Na Manok</h3></div>
+        <div class="card" onclick="showPopupCard('Almondigas')"><img src="img/Almondigas.jpg" alt="Almondigas" class="card-image"><h3>Almondigas</h3></div>
+        <div class="card" onclick="showPopupCard('Filipino Crab & Corn Soup')"><img src="img/Filipino Crab & Corn Soup.jpg" alt="Filipino Crab & Corn Soup" class="card-image"><h3>Filipino Crab & Corn Soup</h3></div>
+        <div class="card" onclick="showPopupCard('Goto')"><img src="img/Goto.jpg" alt="Goto" class="card-image"><h3>Goto</h3></div>
+        <div class="card" onclick="showPopupCard('bulanglang')"><img src="img/bulanglang.jpg" alt="bulanglang" class="card-image"><h3>bulanglang</h3></div>
+        <div class="card" onclick="showPopupCard('Sinabawang Tahong')"><img src="img/Sinabawang Tahong.jpg" alt="Sinabawang Tahong" class="card-image"><h3>Sinabawang Tahong</h3></div>
+        <div class="card" onclick="showPopupCard('Misua Soup')"><img src="img/Misua Soup.jpg" alt="Misua Soup" class="card-image"><h3>Misua Soup</h3></div>
+        <div class="card" onclick="showPopupCard('Filipino Matzah Ball Soup')"><img src="img/Filipino Matzah Ball Soup.jpg" alt="Filipino Matzah Ball Soup" class="card-image"><h3>Filipino Matzah Ball Soup</h3></div>
     </div>
 
     <div id="popup-card" class="popup-card">
@@ -60,7 +75,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
     <script src="nav.js"></script>
+    <script src="recipeAndInstructions.js"></script>
 </body>
 </html>

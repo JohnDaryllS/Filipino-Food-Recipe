@@ -8,9 +8,10 @@ body {
 
 h1 {
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     margin: 60px auto;
     font-size: 3rem;
+    text-decoration: underline;
 }
 
 h2 {
@@ -176,8 +177,8 @@ h3 {
     background-image: url(img/qwer.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: #191970;
+    color: rgb(255, 255, 255);
     padding: 40px;
     width: 100%;
     max-width: 35%;
@@ -204,7 +205,7 @@ h3 {
     right: 20px;
     font-size: 24px;
     cursor: pointer;
-    color: #333;
+    color: #ffffff;
 }
 
 .close-btn:hover {
