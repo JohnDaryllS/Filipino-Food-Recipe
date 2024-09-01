@@ -87,26 +87,24 @@ h3 {
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
     width: 90%;
-    margin: 100px auto;
+    margin: 80px auto;
+    padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #333;
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 10px 120px;
     border: none;
-    border-radius: 5px;
-    background-color: hsl(182, 72%, 56%);
+    background-color: hsl(73, 18%, 62%);
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
 }
 
 .btn:hover {
-    background-color: hsl(182, 72%, 40%);
+    background-color: hsl(73, 18%, 50%);;
 }
 
 .card-container {
