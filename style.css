@@ -217,7 +217,7 @@ h3 {
 
 .scroll-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 100px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -242,6 +242,47 @@ h3 {
     opacity: 1;
     visibility: visible;
 }
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-right a {
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-right a:hover {
+    color: hsl(177, 58%, 50%);
+}
+
+.footer-right i {
+    font-size: 20px;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 600px) {
