@@ -96,7 +96,7 @@ h3 {
 .btn {
     padding: 10px 120px;
     border: none;
-    background-color: hsl(73, 18%, 62%);
+    background-color: hsl(73, 18%, 50%);
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -104,7 +104,7 @@ h3 {
 }
 
 .btn:hover {
-    background-color: hsl(73, 18%, 50%);;
+    background-color: hsl(73, 18%, 30%);;
 }
 
 .card-container {
