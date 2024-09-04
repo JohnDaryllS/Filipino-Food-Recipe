@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     font-family: "Ubuntu", sans-serif;
     font-weight: 600;
     margin: 0;
@@ -284,9 +285,70 @@ footer {
     font-size: 20px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .button-container {
+        margin: 20px auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .btn {
+        padding: 10px 10px;
+        font-size: 7px;
+    }
 
-/* Responsive Styles */
-@media (max-width: 600px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        background-size: 100%;
+        margin: 10px 60px;
+        font-size: .8rem;
+        padding-top: 70px;
+    }
+
+    h3 {
+        font-size: 8px;
+        padding: 5px;
+        width: 50%;
+    }
+    
+    .fa-searchengin {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    
+    .navbar a, .logo {
+        padding-top: 2px;
+        height: 80%;
+        left: 2%;
+    }
+    
+    .search-bar {
+        width: 40%;
+        max-width: 40%;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 15px;
+        right: 10px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 30px;
+        max-width: 90%;
+        width: 100%;
+    }
+    
+    .card-image {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -305,4 +367,8 @@ footer {
     .card-container {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
+}
+
+@media (min-width: 769px ) and (max-width: 1024px) {
+
 }

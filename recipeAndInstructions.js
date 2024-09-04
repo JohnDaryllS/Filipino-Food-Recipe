@@ -1,4 +1,3 @@
-// Sample data for recipes
 const recipes = {
     'Adobong Manok (Chicken Adobo)': {
         ingredients: [
