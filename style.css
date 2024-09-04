@@ -293,12 +293,12 @@ footer {
     }
     
     .btn {
-        padding: 10px 10px;
+        padding: 10px 8px;
         font-size: 7px;
     }
 
     h1 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     h2 {
@@ -309,28 +309,32 @@ footer {
     }
 
     h3 {
-        font-size: 8px;
+        font-size: 10px;
         padding: 5px;
-        width: 50%;
+        width: 70%;
     }
     
     .fa-searchengin {
         font-size: 20px;
         margin-left: 5px;
     }
+
+    .navbar {
+        padding: 10px 60px;
+    }
     
     .navbar a, .logo {
         padding-top: 2px;
         height: 80%;
-        left: 2%;
+        left: 4%;
     }
     
     .search-bar {
         width: 40%;
-        max-width: 40%;
-        padding: 2px;
+        max-width: 50%;
+        padding: 7px;
         border-radius: 5px;
-        font-size: 15px;
+        font-size: 10px;
         right: 10px;
     }
 
@@ -346,6 +350,26 @@ footer {
         width: 100%;
         height: 100px;
     }
+    
+    .popup-content {
+        padding: 20px;
+        width: 100%;
+        max-width: 70%;
+        max-height: 35vh;
+    }
+    
+    .ingredients-list, .instructions-list {
+        margin: 0;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    
+    .close-btn {
+        top: 10px;
+        right: 20px;
+        font-size: 20px;
+    }
+    
 }
 
 @media (min-width: 481px) and (max-width: 768px) {

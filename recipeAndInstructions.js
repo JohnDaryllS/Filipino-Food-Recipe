@@ -2200,4 +2200,3 @@ function showPopupCard(recipeName) {
 function closePopupCard() {
     document.getElementById('popup-card').style.display = 'none';
 }
-
