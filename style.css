@@ -302,10 +302,11 @@ footer {
     }
 
     h2 {
-        background-size: 100%;
+        background-size: 80%;
         margin: 10px 60px;
-        font-size: .8rem;
-        padding-top: 70px;
+        font-size: .7rem;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 
     h3 {
@@ -355,7 +356,7 @@ footer {
         padding: 20px;
         width: 100%;
         max-width: 70%;
-        max-height: 35vh;
+        max-height: 40vh;
     }
     
     .ingredients-list, .instructions-list {
@@ -369,30 +370,218 @@ footer {
         right: 20px;
         font-size: 20px;
     }
+
+    .footer-left p {
+        font-size: 10px;
+    }
+    
+    .footer-right a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .footer-right i {
+        font-size: 13px;
+    }
     
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .button-container {
+        margin: 20px auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .btn {
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        background-size: 80%;
+        margin: 10px 60px;
+        font-size: 1.2rem;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    h3 {
+        font-size: 10px;
+        padding: 5px;
+        width: 70%;
+    }
+    
+    .fa-searchengin {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
     .navbar {
-        flex-direction: column;
-        align-items: center;
+        padding: 10px 60px;
     }
-
-    .logo {
-        position: static;
-        margin-bottom: 10px;
+    
+    .navbar a, .logo {
+        padding-top: 2px;
+        height: 90%;
+        left: 5%;
     }
-
+    
     .search-bar {
-        width: 80%;
-        margin: 0;
+        width: 40%;
+        max-width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        font-size: 15px;
+        right: 10px;
     }
 
     .card-container {
-        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 30px;
+        max-width: 90%;
+        width: 100%;
+    }
+    
+    .card-image {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .popup-content {
+        padding: 20px;
+        width: 100%;
+        max-width: 70%;
+        max-height: 55vh;
+    }
+    
+    .ingredients-list, .instructions-list {
+        margin: 0;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    
+    .close-btn {
+        top: 10px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+    .footer-left p {
+        font-size: 15px;
+    }
+    
+    .footer-right a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .footer-right i {
+        font-size: 20px;
     }
 }
 
-@media (min-width: 769px ) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .button-container {
+        margin: 20px auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        background-size: 70%;
+        margin: 10px 60px;
+        font-size: 1.5rem;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 5px;
+        width: 70%;
+    }
+    
+    .fa-searchengin {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .navbar {
+        padding: 10px 60px;
+    }
+    
+    .navbar a, .logo {
+        padding-top: 2px;
+        height: 90%;
+        left: 5%;
+    }
+    
+    .search-bar {
+        width: 40%;
+        max-width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+        font-size: 15px;
+        right: 10px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 30px;
+        max-width: 90%;
+        width: 100%;
+    }
+    
+    .card-image {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .popup-content {
+        padding: 20px;
+        width: 100%;
+        max-width: 70%;
+        max-height: 68vh;
+    }
+    
+    .ingredients-list, .instructions-list {
+        margin: 0;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    
+    .close-btn {
+        top: 10px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+    .footer-left p {
+        font-size: 15px;
+    }
+    
+    .footer-right a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .footer-right i {
+        font-size: 20px;
+    }
 }
